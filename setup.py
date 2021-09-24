@@ -1,10 +1,10 @@
 from setuptools import setup, find_packages
-import pandas_grep
+import greppa
 
 
 setup(
-    name="pandas-grep",
-    version=pandas_grep.__version__,
+    name="greppa",
+    version=greppa.__version__,
     packages=find_packages(),
     install_requires=[
         "click",
@@ -12,7 +12,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "pandas_grep = pandas_grep.cli:cli"
+            "greppa = greppa.cli:cli"
         ]
     }
 )

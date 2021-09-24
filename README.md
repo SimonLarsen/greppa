@@ -1,12 +1,12 @@
-pandas-grep
-===========
+greppa
+======
 
-A tiny CLI tool for grepping rows in binary tabular files.
+A CLI tool for grepping rows in binary tabular files through Pandas. 
 
 ## Usage
 
 ```bash
-pandas_grep "group == 'x' & y > 3" data.parquet result.parquet
+greppa "group == 'x' & y > 3" data.parquet result.parquet
 ```
 
 Contents of `data.parquet`:
